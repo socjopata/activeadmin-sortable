@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'activeadmin-sortable/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "activeadmin-sortable"
+  gem.name          = "activeadmin-sortable-with-fixes"
   gem.version       = Activeadmin::Sortable::VERSION
-  gem.authors       = ["Adam McCrea"]
+  gem.authors       = ["Adam McCrea", "Radek Jedryszczak"]
   gem.email         = ["adam@adamlogic.com"]
   gem.description   = %q{Drag and drop sort interface for ActiveAdmin tables}
   gem.summary       = %q{Drag and drop sort interface for ActiveAdmin tables}
