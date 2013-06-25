@@ -3,6 +3,10 @@
 This gem extends ActiveAdmin so that your index page's table rows can be 
 sortable via a drag-and-drop interface.
 
+My fork includes:
+- added support for sortable_handle_column and resources registered with ":as => Something" option
+
+
 ## Prerequisites
 
 This extension assumes that you're using 
